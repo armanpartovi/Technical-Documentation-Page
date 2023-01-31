@@ -2,6 +2,8 @@
 
 Objective: Build an app that is functionally similar to https://technical-documentation-page.freecodecamp.rocks.
 
+## GitHub page of my project
+Click [HERE](https://armanpartovi.github.io/Technical-Documentation-Page/) to see my technical documentation page.
 
 ## User stories
 
