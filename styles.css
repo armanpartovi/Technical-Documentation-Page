@@ -1,0 +1,56 @@
+html {
+  color: rgb(10, 10, 10);
+  background-color: gainsboro;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  display: block;
+}
+
+#navbar {
+  border: 5px solid rgba(0, 0, 0, 0.349);
+  line-height: 5;
+  margin-right: 20px;
+  width: 300px;
+  display: block;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  background-color: rgba(169, 169, 169, 0.308);
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+nav header {
+  font-size: 1.5rem;
+}
+
+main header {
+  font-size: 2rem;
+}
+
+main {
+  display: block;
+  margin-left: 320px;
+  padding: 10px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  line-height: 2;
+  background-color: #350bf138;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgba(131, 27, 216, 0.26);
+  }
+}

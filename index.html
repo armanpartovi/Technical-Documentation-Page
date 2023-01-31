@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review some HTML lessons</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <header>HTML DOCUMENTATION</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#HTML_Introduction">HTML Introduction </a>
+        </li>
+        <li><a class="nav-link" href="#HTML_Editors">HTML Editors</a></li>
+        <li>
+          <a class="nav-link" href="#HTML_Basic_Examples"
+            >HTML Basic Examples
+          </a>
+        </li>
+        <li><a class="nav-link" href="#HTML_Elements">HTML Elements </a></li>
+        <li>
+          <a class="nav-link" href="#HTML_Attributes">HTML Attributes </a>
+        </li>
+        <li><a class="nav-link" href="#Refrences">Refrences</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="HTML_Introduction">
+        <header>HTML Introduction</header>
+        <article>
+          <p>HTML is the standard markup language for creating Web pages.</p>
+          <h4>What is HTML?</h4>
+          <ul>
+            <li>HTML stands for Hyper Text Markup Language</li>
+            <li>HTML is the standard markup language for creating Web pages</li>
+            <li>HTML describes the structure of a Web page</li>
+            <li>HTML consists of a series of elements</li>
+            <li>HTML elements tell the browser how to display the content</li>
+            <li>
+              HTML elements label pieces of content such as "this is a heading",
+              "this is a paragraph", "this is a link", etc.
+            </li>
+          </ul>
+          <h4>A Simple HTML Document</h4>
+          <pre>
+            <code>
+              &lt; !DOCTYPE html&gt; 
+               &lt; html&gt; 
+               &lt; head&gt; 
+               &lt; title&gt;Page Title&lt; /title&gt; 
+               &lt; /head&gt; 
+               &lt; body&gt; 
+               &lt; h1&gt;My First Heading&lt; /h1&gt; 
+               &lt; p&gt;My first paragraph.&lt; /p&gt; 
+               &lt;/body&gt; 
+               &lt; /html&gt;
+            </code>
+          </pre>
+          <h4>Example Explained</h4>
+          <ul>
+            <li>
+              The &lt;!DOCTYPE html&gt; declaration defines that this document
+              is an HTML5 document
+            </li>
+            <li>
+              The &lt;html&gt; element is the root element of an HTML page
+            </li>
+            <li>
+              The &lt;head&gt; element contains meta information about the HTML
+              page
+            </li>
+            <li>
+              The &lt;title&gt; element specifies a title for the HTML page
+              (which is shown in the browser's title bar or in the page's tab)
+            </li>
+            <li>
+              The &lt;body&gt; element defines the document's body, and is a
+              container for all the visible contents, such as headings,
+              paragraphs, images, hyperlinks, tables, lists, etc.
+            </li>
+            <li>The &lt;h1&gt; element defines a large heading</li>
+            <li>The &lt;p&gt; element defines a paragraph</li>
+          </ul>
+          <h4>What is an HTML Element?</h4>
+          <p>
+            An HTML element is defined by a start tag, some content, and an end
+            tag:
+          </p>
+          <pre>
+            <code>
+                &lt;tagname&gt; Content goes here... &lt;/tagname&gt;
+
+            </code>
+        </pre>
+          <p>
+            The HTML element is everything from the start tag to the end tag:
+          </p>
+          <pre>
+            <code>
+              &lt;h1&gt;My First Heading&lt;/h1&gt;
+              &lt;p&gt;My first paragraph.&lt;/p&gt;
+            </code>
+          </pre>
+        </article>
+      </section>
+      <section class="main-section" id="HTML_Editors">
+        <header>HTML Editors</header>
+        <h4>Learn HTML Using Notepad or TextEdit</h4>
+        <p>
+          Web pages can be created and modified by using professional HTML
+          editors.
+        </p>
+        <p>
+          However, for learning HTML we recommend a simple text editor like
+          Notepad (PC) or TextEdit (Mac).
+        </p>
+        <p>
+          We believe that using a simple text editor is a good way to learn
+          HTML.
+        </p>
+        <p>
+          Follow the steps below to create your first web page with Notepad or
+          TextEdit.
+        </p>
+        <h4>Step 1: Open Notepad (PC)</h4>
+        <h6>Windows 8 or later:</h6>
+        <p>
+          Open the Start Screen (the window symbol at the bottom left on your
+          screen). Type Notepad.
+        </p>
+        <h6>Windows 7 or earlier:</h6>
+        <p>Open Start > Programs > Accessories > Notepad</p>
+        <h4>Step 2: Write Some HTML</h4>
+        <p>Write or copy the following HTML code into Notepad:</p>
+        <pre>
+          <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;body&gt;
+            &lt;h1&gt;My First Heading&lt;/h1&gt;
+            &lt;p&gt;My first paragraph.&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+         </code>
+       </pre>
+        <h4>Step 3: Save the HTML Page</h4>
+        <ul>
+          <li>
+            Save the file on your computer. Select File > Save as in the Notepad
+            menu.
+          </li>
+          <li>
+            Name the file "index.htm" and set the encoding to UTF-8 (which is
+            the preferred encoding for HTML files).
+          </li>
+        </ul>
+        <p>
+          <strong>Tip</strong>: You can use either .htm or .html as file
+          extension. There is no difference; it is up to you.
+        </p>
+        <h4>Step 4: View the HTML Page in Your Browser</h4>
+        <p>
+          Open the saved HTML file in your favorite browser (double click on the
+          file, or right-click - and choose "Open with").
+        </p>
+        <p>The result will look much like this:</p>
+        <figure>
+          <img
+            src="https://www.w3schools.com/html/img_chrome.png"
+            alt="html-page-in-browser"
+          />
+        </figure>
+      </section>
+      <section class="main-section" id="HTML_Basic_Examples">
+        <header>HTML Basic Examples</header>
+        <p>
+          In this chapter we will show some basic HTML examples. Don't worry if
+          we use tags you have not learned about yet.
+        </p>
+        <h4>HTML Documents</h4>
+        <ul>
+          <li>
+            All HTML documents must start with a document type declaration:
+            &lt;!DOCTYPE html&gt;.
+          </li>
+          <li>
+            The HTML document itself begins with &lt;html&gt; and ends with
+            &lt;/html&gt;.
+          </li>
+          <li>
+            The visible part of the HTML document is between &lt;body&gt; and
+            &lt;/body&gt;.
+          </li>
+        </ul>
+        <h4>The &lt;!DOCTYPE&gt; Declaration</h4>
+        <p>
+          The &lt;!DOCTYPE html&gt; declaration represents the document type,
+          and helps browsers to display web pages correctly.
+        </p>
+        <p>
+          It must only appear once, at the top of the page (before any HTML
+          tags).
+        </p>
+        <p>The &lt;!DOCTYPE html&gt; declaration is not case sensitive.</p>
+        <p>The &lt;!DOCTYPE html&gt; declaration for HTML5 is:</p>
+        <pre>
+          <code>
+            &lt;!DOCTYPE html&gt;
+          </code>
+        </pre>
+        <h4>HTML Headings</h4>
+        <p>HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.</p>
+        <p>
+          &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the
+          least important heading:
+        </p>
+        <pre>
+          <code>
+            &lt;h1&gt;This is heading 1&lt;/h1&gt;
+            &lt;h2&gt;This is heading 2&lt;/h2&gt;
+            &lt;h3&gt;This is heading 3&lt;/h3&gt;
+          </code>
+        </pre>
+        <h4>HTML Paragraphs</h4>
+        <p>HTML paragraphs are defined with the &lt;p&gt; tag:</p>
+        <pre>
+          <code>
+            &lt;p&gt;This is a paragraph.&lt;/p&gt;
+            &lt;p&gt;This is another paragraph.&lt;/p&gt;
+          </code>
+        </pre>
+        <h4>HTML Links</h4>
+        <p>HTML links are defined with the &lt;a&gt; tag:</p>
+        <pre>
+            <code>
+              &lt;a href="https://www.w3schools.com"&gt;This is a link&lt;/a&gt;
+            </code>
+          </pre>
+        <p>
+          The link's destination is specified in the
+          <code>href</code> attribute.
+        </p>
+        <p>
+          Attributes are used to provide additional information about HTML
+          elements.
+        </p>
+        <h4>HTML Images</h4>
+        <p>HTML images are defined with the <code>&lt;img&gt;</code> tag.</p>
+        <pre>
+          <code>
+            &lt;img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"&gt;
+          </code>
+        </pre>
+        <h4>View HTML Source Code:</h4>
+        <p>
+          Right-click in an HTML page and select "View Page Source" (in Chrome)
+          or "View Source" (in Edge), or similar in other browsers. This will
+          open a window containing the HTML source code of the page.
+        </p>
+        <h4>Inspect an HTML Element:</h4>
+        <p>
+          Right-click on an element (or a blank area), and choose "Inspect" or
+          "Inspect Element" to see what elements are made up of (you will see
+          both the HTML and the CSS). You can also edit the HTML or CSS
+          on-the-fly in the Elements or Styles panel that opens.
+        </p>
+      </section>
+      <section class="main-section" id="HTML_Elements">
+        <header>HTML Elements</header>
+        <h4>HTML Elements</h4>
+        <p>
+          The HTML <strong>element</strong> is everything from the start tag to
+          the end tag:
+        </p>
+        <pre>
+            <code>
+              &lt;tagname&gt;Content goes here...&lt;/tagname&gt;
+            </code>
+        </pre>
+        <p>Examples of some HTML elements:</p>
+        <ul>
+          <li>&lt;h1&gt;My First Heading&lt;/h1&gt;</li>
+          <li>&lt;p&gt;My first paragraph.&lt;/p&gt;</li>
+        </ul>
+      </section>
+      <section class="main-section" id="HTML_Attributes">
+        <header>HTML Attributes</header>
+        <h4>HTML Attributes</h4>
+        <ul>
+          <li>All HTML elements can have <strong>attributes</strong></li>
+          <li>Attributes provide additional information about elements</li>
+          <li>Attributes are always specified in the start tag</li>
+          <li>
+            Attributes usually come in name/value pairs like:
+            <code>name="value"</code>
+          </li>
+        </ul>
+        <h4>The href Attribute</h4>
+        <p>
+          The <code>&lt;a&gt;</code> tag defines a hyperlink. The href attribute
+          specifies the URL of the page the link goes to:
+        </p>
+        <pre>
+        <code>
+          &lt;a href="https://www.w3schools.com"&gt;Visit W3Schools&lt;/a&gt;
+        </code>
+        </pre>
+        <h4>The src Attribute</h4>
+        <p>
+          The <code>&lt;img&gt;</code> tag is used to embed an image in an HTML
+          page. The src attribute specifies the path to the image to be
+          displayed:
+        </p>
+        <pre>
+            <code>
+              &lt;img src="img_girl.jpg"&gt;
+            </code>
+          </pre>
+      </section>
+      <section class="main-section" id="Refrences">
+        <header>Refrences</header>
+        <p>
+          All the documentation in this page is taken from
+          <a href="https://www.w3schools.com/html/default.asp">W3Schools</a>.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
